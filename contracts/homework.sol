@@ -15,7 +15,7 @@ contract HomeWork {
     //Ex2:
     uint public x = 0;
     function addToX2(uint y) public {
-        x = y;
+        x+=y;
     }
 
     //Ex3:
