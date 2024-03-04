@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "roles",
+						"type": "uint256"
+					}
+				],
+				"name": "adding_roles",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "checking_roles",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BaiTapLon.sol": "UserManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BaiTapLon.sol": {
+			"keccak256": "0x86f4f867a52cc810c131aa2b3f86418b83be4e77af8f181d0f5f5e06b1bc5153",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e154b38c070484817eb5a9868f6cfd2d7a0b78de81a9d8f1762068469c4058f4",
+				"dweb:/ipfs/QmPSxrfzX3wNKfjYNWgHPiqNzm19wHDFVc9yyiCtziDwyF"
+			]
+		}
+	},
+	"version": 1
+}
