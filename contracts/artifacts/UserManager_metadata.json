@@ -22,24 +22,6 @@
 						"internalType": "address",
 						"name": "_user",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "roles",
-						"type": "uint256"
-					}
-				],
-				"name": "adding_roles",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_user",
-						"type": "address"
 					}
 				],
 				"name": "checking_roles",
@@ -82,11 +64,11 @@
 	},
 	"sources": {
 		"contracts/BaiTapLon.sol": {
-			"keccak256": "0x86f4f867a52cc810c131aa2b3f86418b83be4e77af8f181d0f5f5e06b1bc5153",
+			"keccak256": "0xdf654072f365c998779ec603c3f3740b38e40bd97138ffa10992cad001dda1a6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e154b38c070484817eb5a9868f6cfd2d7a0b78de81a9d8f1762068469c4058f4",
-				"dweb:/ipfs/QmPSxrfzX3wNKfjYNWgHPiqNzm19wHDFVc9yyiCtziDwyF"
+				"bzz-raw://b67e58ddd1e6152802ac2ccca393ae1929762c3ecfb4792a39900a3ec62e819a",
+				"dweb:/ipfs/QmQMCrg2SA68SBfDcknSeya4ozmViVqTbBkdr8R65Kpk9U"
 			]
 		}
 	},
